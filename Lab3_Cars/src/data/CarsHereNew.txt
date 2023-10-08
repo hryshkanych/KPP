@@ -1,0 +1,22 @@
+Nissan Rogue, 31000, 215
+Chevrolet Equinox, 30000, 210
+Kia Sportage, 29000, 205
+Hyundai Tucson, 28000, 200
+Volkswagen Atlas, 36000, 240
+Subaru Outback, 34000, 225
+Mazda CX-9, 36000, 235
+Ford Explorer, 40000, 250
+Honda Pilot, 39000, 245
+Toyota Highlander, 42000, 260
+Nissan Pathfinder, 38000, 235
+Chevrolet Traverse, 38000, 235
+Kia Sorento, 37000, 230
+Hyundai Santa Fe, 36000, 225
+Volkswagen Touareg, 42000, 260
+Subaru Ascent, 38000, 235
+Mazda CX-30, 28000, 205
+Porsche 911, 110000, 300
+Lamborghini Aventador, 400000, 350
+Ferrari 488 GTB, 300000, 330
+McLaren 720S, 350000, 340
+Bugatti Chiron, 3000000, 261
