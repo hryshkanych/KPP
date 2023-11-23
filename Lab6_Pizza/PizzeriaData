@@ -1,0 +1,43 @@
+Pizzas:
+PizzeriaComponents.Pizza{name='Margherita', weight=500.0, price=8.99, ingredients=[Tomato Sauce, Mozzarella, Basil]}
+PizzeriaComponents.Pizza{name='Pepperoni', weight=550.0, price=9.99, ingredients=[Tomato Sauce, Mozzarella, Pepperoni]}
+PizzeriaComponents.Pizza{name='Veggie', weight=450.0, price=7.99, ingredients=[Tomato Sauce, Mozzarella, Bell Pepper, Olives, Onions]}
+PizzeriaComponents.Pizza{name='Hawaiian', weight=550.0, price=10.99, ingredients=[Tomato Sauce, Mozzarella, Ham, Pineapple]}
+PizzeriaComponents.Pizza{name='Quattro Formaggi', weight=500.0, price=11.99, ingredients=[Tomato Sauce, Mozzarella, Gorgonzola, Parmesan, Fontina]}
+PizzeriaComponents.Pizza{name='Meat Lovers', weight=600.0, price=12.99, ingredients=[Tomato Sauce, Mozzarella, Pepperoni, Ham, Bacon, Sausage]}
+
+Customers:
+PizzeriaComponents.Customer{id=1, deliveryAddress='Address 1', orders=[PizzeriaComponents.Order{pizza=PizzeriaComponents.Pizza{name='Veggie', weight=450.0, price=7.99, ingredients=[Tomato Sauce, Mozzarella, Bell Pepper, Olives, Onions]}, deliveryTime=2023-11-13T22:19:38.900407200}]}
+  PizzeriaComponents.Order{pizza=PizzeriaComponents.Pizza{name='Veggie', weight=450.0, price=7.99, ingredients=[Tomato Sauce, Mozzarella, Bell Pepper, Olives, Onions]}, deliveryTime=2023-11-13T22:19:38.900407200}
+
+PizzeriaComponents.Customer{id=2, deliveryAddress='Address 2', orders=[PizzeriaComponents.Order{pizza=PizzeriaComponents.Pizza{name='Margherita', weight=500.0, price=8.99, ingredients=[Tomato Sauce, Mozzarella, Basil]}, deliveryTime=2023-11-13T20:19:38.902105200}, PizzeriaComponents.Order{pizza=PizzeriaComponents.Pizza{name='Meat Lovers', weight=600.0, price=12.99, ingredients=[Tomato Sauce, Mozzarella, Pepperoni, Ham, Bacon, Sausage]}, deliveryTime=2023-11-13T21:19:38.902105200}]}
+  PizzeriaComponents.Order{pizza=PizzeriaComponents.Pizza{name='Margherita', weight=500.0, price=8.99, ingredients=[Tomato Sauce, Mozzarella, Basil]}, deliveryTime=2023-11-13T20:19:38.902105200}
+  PizzeriaComponents.Order{pizza=PizzeriaComponents.Pizza{name='Meat Lovers', weight=600.0, price=12.99, ingredients=[Tomato Sauce, Mozzarella, Pepperoni, Ham, Bacon, Sausage]}, deliveryTime=2023-11-13T21:19:38.902105200}
+
+PizzeriaComponents.Customer{id=3, deliveryAddress='Address 3', orders=[PizzeriaComponents.Order{pizza=PizzeriaComponents.Pizza{name='Hawaiian', weight=550.0, price=10.99, ingredients=[Tomato Sauce, Mozzarella, Ham, Pineapple]}, deliveryTime=2023-11-13T20:19:38.902105200}, PizzeriaComponents.Order{pizza=PizzeriaComponents.Pizza{name='Hawaiian', weight=550.0, price=10.99, ingredients=[Tomato Sauce, Mozzarella, Ham, Pineapple]}, deliveryTime=2023-11-13T20:19:38.902105200}]}
+  PizzeriaComponents.Order{pizza=PizzeriaComponents.Pizza{name='Hawaiian', weight=550.0, price=10.99, ingredients=[Tomato Sauce, Mozzarella, Ham, Pineapple]}, deliveryTime=2023-11-13T20:19:38.902105200}
+  PizzeriaComponents.Order{pizza=PizzeriaComponents.Pizza{name='Hawaiian', weight=550.0, price=10.99, ingredients=[Tomato Sauce, Mozzarella, Ham, Pineapple]}, deliveryTime=2023-11-13T20:19:38.902105200}
+
+PizzeriaComponents.Customer{id=4, deliveryAddress='Address 4', orders=[PizzeriaComponents.Order{pizza=PizzeriaComponents.Pizza{name='Hawaiian', weight=550.0, price=10.99, ingredients=[Tomato Sauce, Mozzarella, Ham, Pineapple]}, deliveryTime=2023-11-14T00:19:38.902105200}, PizzeriaComponents.Order{pizza=PizzeriaComponents.Pizza{name='Veggie', weight=450.0, price=7.99, ingredients=[Tomato Sauce, Mozzarella, Bell Pepper, Olives, Onions]}, deliveryTime=2023-11-13T21:19:38.902105200}]}
+  PizzeriaComponents.Order{pizza=PizzeriaComponents.Pizza{name='Hawaiian', weight=550.0, price=10.99, ingredients=[Tomato Sauce, Mozzarella, Ham, Pineapple]}, deliveryTime=2023-11-14T00:19:38.902105200}
+  PizzeriaComponents.Order{pizza=PizzeriaComponents.Pizza{name='Veggie', weight=450.0, price=7.99, ingredients=[Tomato Sauce, Mozzarella, Bell Pepper, Olives, Onions]}, deliveryTime=2023-11-13T21:19:38.902105200}
+
+PizzeriaComponents.Customer{id=5, deliveryAddress='Address 5', orders=[PizzeriaComponents.Order{pizza=PizzeriaComponents.Pizza{name='Pepperoni', weight=550.0, price=9.99, ingredients=[Tomato Sauce, Mozzarella, Pepperoni]}, deliveryTime=2023-11-14T00:19:38.902105200}]}
+  PizzeriaComponents.Order{pizza=PizzeriaComponents.Pizza{name='Pepperoni', weight=550.0, price=9.99, ingredients=[Tomato Sauce, Mozzarella, Pepperoni]}, deliveryTime=2023-11-14T00:19:38.902105200}
+
+PizzeriaComponents.Customer{id=6, deliveryAddress='Address 6', orders=[PizzeriaComponents.Order{pizza=PizzeriaComponents.Pizza{name='Meat Lovers', weight=600.0, price=12.99, ingredients=[Tomato Sauce, Mozzarella, Pepperoni, Ham, Bacon, Sausage]}, deliveryTime=2023-11-14T00:19:38.902105200}]}
+  PizzeriaComponents.Order{pizza=PizzeriaComponents.Pizza{name='Meat Lovers', weight=600.0, price=12.99, ingredients=[Tomato Sauce, Mozzarella, Pepperoni, Ham, Bacon, Sausage]}, deliveryTime=2023-11-14T00:19:38.902105200}
+
+PizzeriaComponents.Customer{id=7, deliveryAddress='Address 7', orders=[PizzeriaComponents.Order{pizza=PizzeriaComponents.Pizza{name='Veggie', weight=450.0, price=7.99, ingredients=[Tomato Sauce, Mozzarella, Bell Pepper, Olives, Onions]}, deliveryTime=2023-11-13T23:19:38.902105200}]}
+  PizzeriaComponents.Order{pizza=PizzeriaComponents.Pizza{name='Veggie', weight=450.0, price=7.99, ingredients=[Tomato Sauce, Mozzarella, Bell Pepper, Olives, Onions]}, deliveryTime=2023-11-13T23:19:38.902105200}
+
+PizzeriaComponents.Customer{id=8, deliveryAddress='Address 8', orders=[PizzeriaComponents.Order{pizza=PizzeriaComponents.Pizza{name='Margherita', weight=500.0, price=8.99, ingredients=[Tomato Sauce, Mozzarella, Basil]}, deliveryTime=2023-11-14T00:19:38.902105200}]}
+  PizzeriaComponents.Order{pizza=PizzeriaComponents.Pizza{name='Margherita', weight=500.0, price=8.99, ingredients=[Tomato Sauce, Mozzarella, Basil]}, deliveryTime=2023-11-14T00:19:38.902105200}
+
+PizzeriaComponents.Customer{id=9, deliveryAddress='Address 9', orders=[PizzeriaComponents.Order{pizza=PizzeriaComponents.Pizza{name='Margherita', weight=500.0, price=8.99, ingredients=[Tomato Sauce, Mozzarella, Basil]}, deliveryTime=2023-11-13T23:19:38.902105200}, PizzeriaComponents.Order{pizza=PizzeriaComponents.Pizza{name='Pepperoni', weight=550.0, price=9.99, ingredients=[Tomato Sauce, Mozzarella, Pepperoni]}, deliveryTime=2023-11-13T22:19:38.902105200}]}
+  PizzeriaComponents.Order{pizza=PizzeriaComponents.Pizza{name='Margherita', weight=500.0, price=8.99, ingredients=[Tomato Sauce, Mozzarella, Basil]}, deliveryTime=2023-11-13T23:19:38.902105200}
+  PizzeriaComponents.Order{pizza=PizzeriaComponents.Pizza{name='Pepperoni', weight=550.0, price=9.99, ingredients=[Tomato Sauce, Mozzarella, Pepperoni]}, deliveryTime=2023-11-13T22:19:38.902105200}
+
+PizzeriaComponents.Customer{id=10, deliveryAddress='Address 10', orders=[PizzeriaComponents.Order{pizza=PizzeriaComponents.Pizza{name='Hawaiian', weight=550.0, price=10.99, ingredients=[Tomato Sauce, Mozzarella, Ham, Pineapple]}, deliveryTime=2023-11-13T20:19:38.902105200}]}
+  PizzeriaComponents.Order{pizza=PizzeriaComponents.Pizza{name='Hawaiian', weight=550.0, price=10.99, ingredients=[Tomato Sauce, Mozzarella, Ham, Pineapple]}, deliveryTime=2023-11-13T20:19:38.902105200}
+
